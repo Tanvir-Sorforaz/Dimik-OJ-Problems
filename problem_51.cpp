@@ -1,3 +1,4 @@
+/*
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -17,6 +18,28 @@ int main(){
                 break;
             }
             i++;
+        }
+    }
+    return 0;
+}
+*/
+
+
+//Easy to understand
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        string s1, s2;
+        cin >> s1 >> s2;
+        size_t found = s1.find(s2);
+        if (found != string::npos) {
+            cout << found << endl;
+        } else {
+            cout << -1 << endl;
         }
     }
     return 0;
