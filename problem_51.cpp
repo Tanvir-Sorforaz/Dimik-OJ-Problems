@@ -38,9 +38,7 @@ int main() {
         size_t found = s1.find(s2);
         if (found != string::npos) {
             cout << found << endl;
-        } else {
-            cout << -1 << endl;
-        }
+        } 
     }
     return 0;
 }
